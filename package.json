@@ -1,0 +1,11 @@
+{
+  "name": "performance_testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:liyaodong/performance_testing.git",
+  "author": "Yaodong Li <ydli@thoughtworks.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "lighthouse-puppeteer -f ./tests/google.js -d ./output"
+  }
+}
